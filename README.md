@@ -1,5 +1,3 @@
-
-=======
 # Jukebox Music Mixer
 
 ## ABOUT
@@ -9,7 +7,6 @@ With this program we are making a 50s style JukeBox and using the intrument icon
 ## How TO PLAY
 
 Click and drag the selected icon into one of the instrument slots. Complete all 3 slots to play a song. Sit back and listen to your song of choice. 
-
 
 ## Requirements 
 
@@ -25,6 +22,14 @@ A modern browser
 `CD` to the location of your choice, right click on the index.html page and open in a moden browser.
 
 ## Licence 
+
+MIT
+
+## Author
+
+DEV - Emily Kingma
+DES - Marisa Settimi
+
 
 MIT
 
