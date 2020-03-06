@@ -1,8 +1,12 @@
-# Web Development Midterm
+# Jukebox Music Mixer
 
 ## ABOUT
 
-A website showing the new branding for Coors
+With this program we are making a 50s style JukeBox and using the intrument icons to play music that was popular in the 50s.
+
+## How TO PLAY
+
+Click and drag the selected icon into one of the instrument slots. Complete all 3 slots to play a song. Sit back and listen to your song of choice. 
 
 ## Requirements 
 
@@ -12,7 +16,6 @@ A modern browser
 
 1. HTML
 2. CSS
-3. JS
 
 ## Installation
 
@@ -24,4 +27,5 @@ MIT
 
 ## Author
 
-DES/DEV - Marisa Settimi
+DEV - Emily Kingma
+DES - Marisa Settimi
