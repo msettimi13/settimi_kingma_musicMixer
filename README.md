@@ -29,12 +29,3 @@ MIT
 
 DEV - Emily Kingma
 DES - Marisa Settimi
-
-
-MIT
-
-## Author
-
-DEV - Emily Kingma
-DES - Marisa Settimi
-
