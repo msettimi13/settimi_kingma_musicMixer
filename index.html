@@ -7,14 +7,44 @@
 	<title>Music Mixer Assignment</title>
 </head>
 <body>
-	<!--Music-->
-	<div class="audio">
-		<audio src="audio/jailhouse.mp3" controls>jailhouse rock</audio>
-		<audio src="audio/clock.mp3" controls>rock around the clock</audio>
-		<audio src="audio/fly.mp3"controls> come fly with me</audio>
-		<audio src="audio/mambo.mp3"controls>mambo #5</audio>
-		<audio src="audio/mona.mp3"controls>mona lisa</audio>
+
+	<div class="container">
+		<!--jukebox background-->
+		<div class="jukebox">
+			<img src="images/jukeboxV3.png" alt="jukebox">
+		</div>
+		<!--buttons-->
+		<div class="button">
+			<div draggable="true" class="drums">
+				<img draggable="true" src="images/drums.svg" alt="drums">
+			</div>
+			<div class="sax">
+				<img draggable="true" src="images/sax.svg" alt="sax">
+			</div>
+			<div class="keys">
+				<img draggable="true" src="images/keys.svg" alt="keys">
+			</div>
+			<div class="trump">
+				<img draggable="true" src="images/trump.svg" alt="trump">
+			</div>
+			<div class="guitar">
+				<img draggable="true" src="images/guitar.svg" alt="guitar">
+			</div>
+		</div>
+		<!--drop slots-->
+		<div class="slot"></div>
+		<div class="slot"></div>
+		<div class="slot"></div>
+		<!--Music-->
+		<div class="audio">
+			<audio src="audio/jailhouse.mp3" controls>jailhouse rock</audio>
+			<audio src="audio/clock.mp3" controls>rock around the clock</audio>
+			<audio src="audio/fly.mp3"controls> come fly with me</audio>
+			<audio src="audio/mambo.mp3"controls>mambo #5</audio>
+			<audio src="audio/mona.mp3"controls>mona lisa</audio>
+		</div>
 	</div>
+
 	<script src="js/main.js"></script>
 
 </body>
