@@ -1,1 +1,58 @@
-@charset "UTF-8"
+@charset "UTF-8";
+
+.container{
+  background-color: black;
+}
+.jukebox{
+}
+
+.button{
+  width: 40px;
+  cursor: pointer;
+}
+
+.drums{
+
+}
+
+.sax{
+
+}
+
+.keys{
+
+}
+
+.trump{
+
+}
+
+.guitar{
+
+}
+
+.slot{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  border: 3px white;
+  background-color: grey;
+}
+
+.hold {
+  border: solid #ccc 4px;
+}
+
+.hover{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  border: 3px white;
+  background: #f4f4f4;
+}
+
+.hidden{
+  display: none;
+}
