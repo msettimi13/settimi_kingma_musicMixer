@@ -1,6 +1,6 @@
 (() => {
 
-const drumsButton = document.querySelector('.drums'),
+const pDrums = document.querySelector('.pDrums'),
 saxButton = document.querySelector('.sax'),
 keysButton = document.querySelector('.keys'),
 trumpButton = document.querySelector('.trump'),
@@ -8,21 +8,28 @@ guitarButton = document.querySelector('.guitar'),
 slots = document.querySelectorAll('.slot'),
 button = document.querySelectorAll('.button');
 
-//for(const slot of slots) {
-//  slot.addEventListener('dragover', dragOver);
-//  slot.addEventListener('dragenter', dragEnter);
-//  slot.addEventListener('dragleave', dragLeave);
-//  slot.addEventListener('drop', dragDrop);
-//}
-
 const pieces = ["instrument1", "instrument2", "instrument3", "instrument4", "instrument5"];
+    audioElement = document.querySelector('audio');
 
-//function setInstruments(event) {
-//  pieces.forEach((piece, index) => {
-//    this.id = `${piece}`;
-//  })
-//}
 
+//music
+
+function play() {
+
+
+      // check the current track and incoming trackref; if they match, then unpause. else load the new track
+    //  audioElement.getAttribute('src').includes(this.dataset.trackref);
+
+    let audioSource = this.dataset.trackref;
+
+    // set the audio source
+    audioElement.src = `audio/${audioSource}.mp3`;
+
+    // load and play it
+    audioElement.load();
+    audioElement.play();
+    //playTrack();
+  }
 //slots
 function dragOver(event) {
   event.preventDefault();
@@ -58,14 +65,19 @@ function dragEnd() {
 slots.forEach(slot => slot.addEventListener('dragover', dragOver));
 slots.forEach(slot => slot.addEventListener('drop', dragDrop));
 
-drumsButton.addEventListener('dragstart', dragStart);
-drumsButton.addEventListener('dragend', dragEnd);
+pDrums.addEventListener('dragstart', dragStart);
+pDrums.addEventListener('dragend', play);
+pDrums.addEventListener('dragend', dragEnd);
 saxButton.addEventListener('dragstart', dragStart);
 saxButton.addEventListener('dragend', dragEnd);
+saxButton.addEventListener('dragend', play);
 keysButton.addEventListener('dragstart', dragStart);
 keysButton.addEventListener('dragend', dragEnd);
+keysButton.addEventListener('dragend', play);
 trumpButton.addEventListener('dragstart', dragStart);
 trumpButton.addEventListener('dragend', dragEnd);
+trumpButton.addEventListener('dragend', play);
 guitarButton.addEventListener('dragstart', dragStart);
 guitarButton.addEventListener('dragend', dragEnd);
+guitarButton.addEventListener('dragend', play);
 })();
