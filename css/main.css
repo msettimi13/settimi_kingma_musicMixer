@@ -24,52 +24,143 @@ button{
 }
 
 .purple{
-  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 293px;
+}
+.blue{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80px;
+  height: 120px;
+  margin-left: 402px;
+  margin-top: -121px;
+}
+.pink{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80px;
+  height: 120px;
+  margin-left: 515px;
+  margin-top: -121px;
 }
 .pDrums{
-
+  height: 35px;
+  width: 35px;
 }
 
-.sax{
-
+.pSax{
+  height: 35px;
+  width: 35px;
 }
 
-.keys{
-
+.pKeys{
+  height: 35px;
+  width: 35px;
 }
 
-.trump{
-
+.pTrump{
+  height: 35px;
+  width: 35px;
 }
 
-.guitar{
+.pGuitar{
+  height: 35px;
+  width: 35px;
+  margin: auto;
+}
+.bDrums{
+  height: 35px;
+  width: 35px;
+}
 
+.bSax{
+  height: 35px;
+  width: 35px;
+}
+
+.bKeys{
+  height: 35px;
+  width: 35px;
+}
+
+.bTrump{
+  height: 35px;
+  width: 35px;
+}
+
+.bGuitar{
+  height: 35px;
+  width: 35px;
+  margin: auto;
+}
+.pkDrums{
+  height: 35px;
+  width: 35px;
+}
+
+.pkSax{
+  height: 35px;
+  width: 35px;
+}
+
+.pkKeys{
+  height: 35px;
+  width: 35px;
+}
+
+.pkTrump{
+  height: 35px;
+  width: 35px;
+}
+
+.pkGuitar{
+  height: 35px;
+  width: 35px;
+  margin: auto;
 }
 
 .slot{
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  border: 3px white;
-  background-color: grey;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 135px;
+  width: 110px;
   position: relative;
+  padding-top: 470px;
+  padding-left: 385px;
 
 }
 
 #slotOne{
-
+    height: 40px;
+    width: 40px;
 }
 #slotTwo{
-
+    height: 40px;
+    width: 40px;
 }
 #slotThree{
-
+    height: 40px;
+    width: 40px;
 }
 #slotFour{
-
+    height: 40px;
+    width: 40px;
 }
 #slotFive{
-
+    height: 40px;
+    width: 40px;
 }
 
 .hold {
