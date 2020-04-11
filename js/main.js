@@ -26,19 +26,13 @@ const pieces = ["instrument1", "instrument2", "instrument3", "instrument4", "ins
 
 function play() {
 
-
-      // check the current track and incoming trackref; if they match, then unpause. else load the new track
-    //  audioElement.getAttribute('src').includes(this.dataset.trackref);
-
     let audioSource = this.dataset.trackref;
 
     // set the audio source
     audioElement.src = `audio/${audioSource}.mp3`;
 
-    // load and play it
     audioElement.load();
     audioElement.play();
-    //playTrack();
   }
 //slots
 function dragOver(event) {
@@ -59,7 +53,6 @@ function dragDrop(event) {
 
   let currentPiece = event.dataTransfer.getData("text/hidden", this.id);
   event.target.appendChild(document.querySelector(`#${currentPiece}`));
-  //this.append(button);
 }
 //buttons
 function dragStart(event){
